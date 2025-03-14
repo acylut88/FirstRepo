@@ -1,0 +1,41 @@
+/secrets.txt
+
+# Готовые шаблоны
+# Коллекция .gitignore для разных языков программирования и сред разработки: https://github.com/github/gitignore
+# gitignore.io - веб-сервис, призванный помочь создавать файлы .gitignore
+
+# Байткод
+*.pyc
+**/__pycache__/
+*.pyo
+*.pyd
+
+# Файлы с паролями и секретами
+.env
+credentials.json
+
+# Временные файлы
+*.tmp
+*.swp
+*~
+
+# Логи
+logs/*
+*.log
+
+# Папки, создаваемые PyCharm
+.idea/
+*.iml
+
+# Папки для тестов
+tests/
+test/
+
+# Виртуальные окружения
+venv/
+env/
+
+# Файлы, создаваемые при упаковке проекта
+dist/
+build/
+*.egg-info/
